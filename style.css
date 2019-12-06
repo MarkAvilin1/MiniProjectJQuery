@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: repeating-linear-gradient(to bottom, white, blue, red );
+}
+
+#container {
+    width: 670px;
+    margin: 100px auto;
+}
+
+#second {
+    border: 2px grey dotted;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+label {
+    width: 240px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+#section {
+    
+    margin-top: 15px;
+}
+
+.div {
+    width: 350px;
+    height: 40px; 
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 0px 5px;
+    margin-left: -50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#submit {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+#submit2 {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+#msgContaint1 {
+    width: 630px;
+    margin: 100px auto;
+    background-color: #FFE;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    border: 2px RED solid;
+    border-radius: 15px;
+    padding: 20px;
+    display: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#errorMsg {
+    color: red;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+}
+
+#secssesMsg {
+    color: lightgreen;
+    text-align: left;
+    text-shadow: 1px 1px 2px darkgreen;
+}
+
+#well {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+}
